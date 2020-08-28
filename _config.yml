@@ -1,13 +1,15 @@
 # Site Settings
-name: Jekflix
-title: Jekflix | A blog theme for Jekyll
-description: Jekflix is a template for Jekyll inspired by Netflix and made by
-  Thiago Rossener.
+name: Lifetime spectator 
+title: spectator | A blog informs you of my interests
+description: spectator is A blog informs you of my interests and A template for Jekyll inspired by Netflix
 tags:
   - blog
-  - template
-  - jekyll
-  - theme
+  - cook
+  - brot
+  - schokolade
+  - sport
+  - IT
+  - skill
   - netlify
 show_hero: true
 menu:
@@ -30,7 +32,7 @@ facebook_username:
 twitter_username: 
 instagram_username: 
 linkedin_username: 
-medium_username: 
+medium_username:
 
 
 # Posts Settings
@@ -108,7 +110,7 @@ translations:
     new_post: "새 글"
     see_also: "See also"
     search: "Search"
-    author: "Author"
+    author: "글쓴이"
     share: "Share"
     comments: "Comments"
   button:
