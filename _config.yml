@@ -1,15 +1,13 @@
 # Site Settings
-name: Lifetime spectator 
-title: spectator | A blog informs you of my interests
-description: spectator is A blog informs you of my interests and A template for Jekyll inspired by Netflix
+name: Jekflix
+title: Jekflix | A blog theme for Jekyll
+description: Jekflix is a template for Jekyll inspired by Netflix and made by
+  Thiago Rossener.
 tags:
   - blog
-  - cook
-  - brot
-  - schokolade
-  - sport
-  - IT
-  - skill
+  - template
+  - jekyll
+  - theme
   - netlify
 show_hero: true
 menu:
@@ -21,18 +19,18 @@ menu:
     url: /contact
   - title: Feed
     url: /feed.xml
-email: mz.hisia@gmail.com
-disqus_username: hisikong
+email: youremail@test.com
+disqus_username: disqus_username
 
 
 # Social Media Settings
 # Remove the item if you don't need it
-github_username: dromide
-facebook_username: 
-twitter_username: 
-instagram_username: 
-linkedin_username: 
-medium_username:
+github_username: github_username
+facebook_username: facebook_username
+twitter_username: twitter_username
+instagram_username: instagram_username
+linkedin_username: linkedin_username
+medium_username: medium_username
 
 
 # Posts Settings
@@ -43,10 +41,10 @@ two_columns_layout: true
 
 
 # Advanced Settings
-baseurl: "/blog" # the subpath of your site, e.g. /blog
-url: "https://dromide.github.io" # the base hostname & protocol for your site
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site
 google_analytics: "UA-XXXXXXXX-X"
-language: "ko"
+language: "en"
 categories_folder: category
 sent_message_url: "/contact/message-sent/"
 
@@ -104,45 +102,3 @@ exclude: [
 
 # Theme
 version: v3.1.0
-
-translations:
-  text:
-    new_post: "새 글"
-    see_also: "See also"
-    search: "Search"
-    author: "글쓴이"
-    share: "Share"
-    comments: "Comments"
-  button:
-    read_now: "Read Now"
-    share_on_twitter: "Share on Twitter"
-    share_on_facebook: "Share on Facebook"
-  pagination:
-    page: "Page"
-    of: "of"
-    next_page: "Next Page"
-    next_post: "Previous Page"
-  recommendation:
-    text: "Why don't you read something next?"
-    back_btn: "Go back to top"
-  error_404:
-    title: "Page not found :("
-    message: "I'm sorry. We couldn't find the page you are looking for."
-    image_alt: "404 - Page not found"
-  contact:
-    title: "Talk to me"
-    subject: "New contact!"
-    submit_btn: "Send"
-    placeholders:
-      name: "Your name"
-      email: "Your e-mail"
-      message: "Your message"
-    errors:
-      locale: "ko"
-      empty_name: "Name is required"
-      empty_email: "Email is required"
-      invalid_email: "Email is invalid"
-      empty_message: "Message is required"
-    after_send:
-      title: "Message sent!"
-      message: "Thank you for sending me a message. I'm going to answer ASAP."
