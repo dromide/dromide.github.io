@@ -1,7 +1,7 @@
 # Site Settings
 name: Life spectator
 title: spectator | A blog informs you of my interests
-description: spectator is A blog informs you of my interests and A templete for Jekyll inspired by Netflix 
+description: spectator is A blog informs you of my interests and A templete for Jekyll inspired by Netflix
 tags:
   - blog
   - cook
@@ -21,34 +21,30 @@ menu:
   - title: Feed
     url: /feed.xml
 email: mz.hisia@gmail.com
-disqus_username: hisikong
-
+disqus_username: https://dromide.github.io/
 
 # Social Media Settings
 # Remove the item if you don't need it
 github_username: dromide
-facebook_username: 
-twitter_username: 
-instagram_username: 
-linkedin_username: 
-medium_username: 
-
+facebook_username:
+twitter_username:
+instagram_username:
+linkedin_username:
+medium_username:
 
 # Posts Settings
 show_time_bar: true
 show_modal_on_exit: false
 show_modal_on_finish_post: true
-two_columns_layout: true
-
+two_columns_layout: false
 
 # Advanced Settings
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://dromide.github.io" # the base hostname & protocol for your site
-google_analytics: "UA-XXXXXXXX-X"
-language: "kr"
+baseurl: '' # the subpath of your site, e.g. /blog
+url: 'https://dromide.github.io' # the base hostname & protocol for your site
+google_analytics: 'UA-XXXXXXXX-X'
+language: 'ko'
 categories_folder: category
-sent_message_url: "/contact/message-sent/"
-
+sent_message_url: '/contact/message-sent/'
 
 # Build settings
 markdown: kramdown
@@ -57,8 +53,8 @@ permalink: /:title/
 collections:
   authors:
     output: true
-paginate_path: "/page/:num/"
-show_get_theme_btn: true
+paginate_path: '/page/:num/'
+show_get_theme_btn: false
 use_logo: false
 
 # Content paginator
@@ -68,8 +64,8 @@ paginate_content:
   collections:
     - posts
   auto: false
-  separator: "--page-break--"
-  permalink: "/:num/"
+  separator: '--page-break--'
+  permalink: '/:num/'
   seo_canonical: true
   properties:
     part:
@@ -89,17 +85,18 @@ plugins:
   - jekyll-paginate-content
 
 # Exclude my node related stuff
-exclude: [
-  'package.json',
-  'package-lock.json',
-  'src',
-  'node_modules',
-  'initpost.sh',
-  'Gemfile',
-  'Gemfile.lock',
-  'gulpfile.js',
-  'README.md'
-]
+exclude:
+  [
+    'package.json',
+    'package-lock.json',
+    'src',
+    'node_modules',
+    'initpost.sh',
+    'Gemfile',
+    'Gemfile.lock',
+    'gulpfile.js',
+    'README.md',
+  ]
 
 # Theme
 version: v3.1.0
