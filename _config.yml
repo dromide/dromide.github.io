@@ -10,6 +10,7 @@ tags:
   - sport
   - skill
   - netlify
+  - PHP
 show_hero: true
 menu:
   - title: Home
@@ -21,7 +22,7 @@ menu:
   - title: Feed
     url: /feed.xml
 email: mz.hisia@gmail.com
-disqus_username: https://dromide.github.io/
+disqus_username: https-dromide-github-io
 
 # Social Media Settings
 # Remove the item if you don't need it
@@ -41,7 +42,7 @@ two_columns_layout: false
 # Advanced Settings
 baseurl: '' # the subpath of your site, e.g. /blog
 url: 'https://dromide.github.io' # the base hostname & protocol for your site
-google_analytics: 'UA-XXXXXXXX-X'
+google_analytics: 'G-FB0TN9KJNS'
 language: 'ko'
 categories_folder: category
 sent_message_url: '/contact/message-sent/'

@@ -1,6 +1,6 @@
 name: Life spectator
 title: spectator | A blog informs you of my interests
-description: spectator is A blog informs you of my interests and A templete for Jekyll inspired by Netflix 
+description: spectator is A blog informs you of my interests and A templete for Jekyll inspired by Netflix
 tags:
   - blog
   - cook
@@ -20,4 +20,4 @@ menu:
   - title: Feed
     url: /feed.xml
 email: mz.hisia@gmail.com
-disqus_username: hisikong
+disqus_username: https-dromide-github-io
